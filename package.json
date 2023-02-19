@@ -1,0 +1,22 @@
+{
+  "name": "seven-wonders_back",
+  "version": "1.0.0",
+  "description": "A backend server for an implementation of the board game seven wonders",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoutaiA/back-7wonders.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoutaiA/back-7wonders/issues"
+  },
+  "homepage": "https://github.com/MoutaiA/back-7wonders#readme"
+}
