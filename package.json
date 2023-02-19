@@ -4,7 +4,10 @@
   "description": "A backend server for an implementation of the board game seven wonders",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "start": "node server",
+    "nodemon": "npm run build && nodemon --inspect server",
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/MoutaiA/back-7wonders/issues"
   },
-  "homepage": "https://github.com/MoutaiA/back-7wonders#readme"
+  "homepage": "https://github.com/MoutaiA/back-7wonders#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dayjs": "^1.11.7",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "morgan": "^1.10.0",
+    "typescript": "^4.9.5",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "nodemon": "^2.0.20",
+    "test": "^3.3.0"
+  }
 }
